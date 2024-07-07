@@ -6,8 +6,8 @@ if platform.system() == "Linux":
 
 from controller import Supervisor, GPS, Compass, Lidar
 
-from utils import warp_robot
-from transformations import create_tf_matrix
+from src.utils import warp_robot
+from src.transformations import create_tf_matrix
 
 from tqdm import tqdm
 import numpy as np

@@ -13,7 +13,7 @@ from skimage.draw import line
 
 import networkx as nx
 
-from Ransac import Ransac
+from src.Ransac import Ransac
 
 
 def find_all_cycles(graph):

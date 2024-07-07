@@ -1,12 +1,7 @@
-import os
-from tqdm import tqdm
 import numpy as np
-import math
-import pickle
 import matplotlib.pyplot as plt
 import open3d as o3d
-import pandas as pd
-from plane import Plane
+from src.plane import Plane
 
 
 def plane_intersect(a, b):
